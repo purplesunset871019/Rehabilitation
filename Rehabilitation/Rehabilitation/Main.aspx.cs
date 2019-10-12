@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Windows;
 
 namespace Rehabilitation
 {
@@ -14,14 +15,12 @@ namespace Rehabilitation
 
         }
 
-        protected void Patient_Click(object sender, EventArgs e)
+        protected void Main_Patient_Click(object sender, EventArgs e)
         {
-            Main w13 = new Main();
-            this.Close();
-            w13.Show();
+
         }
 
-        protected void Doctor_Click(object sender, EventArgs e)
+        protected void Main_Doctor_Click(object sender, EventArgs e)
         {
 
         }

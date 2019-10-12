@@ -14,7 +14,7 @@ namespace Rehabilitation
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Patient_sign_out_Click(object sender, EventArgs e)
         {
 
         }

@@ -13,5 +13,15 @@ namespace Rehabilitation
         {
 
         }
+
+        protected void Doctor_sign_in_back_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Doctor_sign_in_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

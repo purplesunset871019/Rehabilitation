@@ -13,5 +13,10 @@ namespace Rehabilitation
         {
 
         }
+
+        protected void Doctor_sign_out_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
