@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Button ID="Button1" runat="server" Text="病人端" Height="200px" Width="200px" OnClick="Main_Patient_Click" OnClientClick="window.location.href='Patient_sign_in.aspx';return false;"/>
+        <asp:Button ID="Button1" runat="server" Text="病人端" Height="200px" Width="200px" OnClick="Main_Patient_Click" OnClientClick="window.location.href='Patient_choose.aspx';return false;"/>
 
             <asp:Button ID="Button2" runat="server" Text="復健師端" Height="200px" Width="200px" OnClick="Main_Doctor_Click"  OnClientClick="window.location.href='Doctor_sign_in.aspx';return false;" />
 

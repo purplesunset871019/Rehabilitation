@@ -72,6 +72,7 @@
     <Content Include="Doctor_sign_in.aspx" />
     <Content Include="Main.aspx" />
     <Content Include="Patient.aspx" />
+    <Content Include="Patient_choose.aspx" />
     <Content Include="Patient_sign_in.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -103,6 +104,13 @@
     </Compile>
     <Compile Include="Patient.aspx.designer.cs">
       <DependentUpon>Patient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Patient_choose.aspx.cs">
+      <DependentUpon>Patient_choose.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Patient_choose.aspx.designer.cs">
+      <DependentUpon>Patient_choose.aspx</DependentUpon>
     </Compile>
     <Compile Include="Patient_sign_in.aspx.cs">
       <DependentUpon>Patient_sign_in.aspx</DependentUpon>
