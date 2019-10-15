@@ -12,8 +12,9 @@
         <div>
             <asp:Button ID="Button1" runat="server" Text="預約" Height="200px" Width="200px" OnClick="Reservation_Click" OnClientClick="window.location.href='Patient_sign_in.aspx';return false;"/>
 
-            <asp:Button ID="Button2" runat="server" Text="看診" Height="200px" Width="200px" OnClick="Site_Click"  OnClientClick="window.location.href='Doctor_sign_in.aspx';return false;" />
+            <asp:Button ID="Button2" runat="server" Text="看診" Height="200px" Width="200px" OnClick="Site_Click"  OnClientClick="window.location.href='Patient.aspx';return false;" />
         </div>
+        <asp:Button ID="Button3" runat="server" Text="返回" OnClick="Patient_choose_back_Click" OnClientClick="window.location.href='Main.aspx';return false;"/>
     </form>
 </body>
 </html>

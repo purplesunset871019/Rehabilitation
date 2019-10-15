@@ -14,5 +14,19 @@ namespace Rehabilitation
 
         }
 
+        protected void Reservation_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Site_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Patient_choose_back_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

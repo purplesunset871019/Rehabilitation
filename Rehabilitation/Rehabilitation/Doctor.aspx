@@ -10,11 +10,14 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:GridView ID="gvPhoneBook" runat="server">
-
-            </asp:GridView>
         </div>
         <asp:Button ID="Button1" runat="server" Text="登出" OnClick="Doctor_sign_out_Click" OnClientClick="window.location.href='Main.aspx';return false;" style="height: 21px"/>
+        <asp:Button ID="Button4" runat="server" Text="設定" />
+        <asp:Label ID="Label1" runat="server" Text="XXX使用中"></asp:Label>
+        <p>
+            <asp:Button ID="Button2" runat="server" Text="病人排成" Height="200px" Width="200px"/>
+            <asp:Button ID="Button3" runat="server"  Text="病人報到" Height="200px" Width="200px"/>
+        </p>
     </form>
 </body>
 </html>
